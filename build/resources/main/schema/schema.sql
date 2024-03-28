@@ -1,0 +1,7 @@
+CREATE TABLE ALUMNO_ENTIDAD (
+    id BIGINT PRIMARY KEY AUTO_INCREMENT,
+    nombre VARCHAR(255),
+    apellido VARCHAR(255),
+    estado VARCHAR(50),
+    edad INT
+);
